@@ -201,7 +201,7 @@ export default function TeamCompeteFlow({ accent = REG_COLORS.red }: { accent?: 
   const inputBase = "w-full px-4 py-3 rounded-xl bg-black/40 border text-white placeholder:text-white/30 focus:outline-none transition-colors";
   const ring = (id: string) => (err(id) ? "border-red-400" : "border-white/10 focus:border-white/40");
 
-  const stepTitles = ["Team Origin", "Team Informaation", "Team Members", "Competition & Category", "Project Details", "Registration Fees & Payment"];
+  const stepTitles = ["Team Origin", "Team Information", "Team Members", "Competition & Category", "Project Details", "Registration Fees & Payment"];
 
   return (
     <div>

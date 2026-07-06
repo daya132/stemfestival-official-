@@ -74,7 +74,7 @@ export const REG_CATEGORIES: RegCategory[] = [
         description: "Name your team and pick a category.",
         fields: [
           { id: "teamName", label: "Team Name", type: "text", required: true, placeholder: "The Innovators" },
-          { id: "category", label: "Competition Category", type: "select", required: true, options: ["AI & Robotics", "Software Dev", "IoT & Electronics", "Animation & Game Devlopement","Drone Technology", "Blockchain"] },
+          { id: "category", label: "Competition Category", type: "select", required: true, options: ["AI & Robotics", "Software Dev", "IoT & Electronics", "Animation & Game Development","Drone Technology", "Blockchain"] },
           { id: "ageBracket", label: "Age Category", type: "select", required: true, options: ["8-12", "11-15", "14-19", "18-25", "25-35", "35+"] },
           { id: "school", label: "School / Organization (if any)", type: "text" },
         ],
@@ -117,7 +117,7 @@ export const REG_CATEGORIES: RegCategory[] = [
         description: "Help us tailor your festival experience.",
         fields: [
           { id: "ageBracket", label: "Age Category", type: "select", required: true, options: ["8-12", "11-15", "14-19", "18-25", "25-35", "35+"] },
-          { id: "focus", label: "Primary Interest", type: "select", required: true, options: ["AI & Robotics", "Software Dev", "IoT & Electronics", "Animation & Game Devlopement","Drone Technology", "Blockchain"] },
+          { id: "focus", label: "Primary Interest", type: "select", required: true, options: ["AI & Robotics", "Software Dev", "IoT & Electronics", "Animation & Game Development","Drone Technology", "Blockchain"] },
           { id: "days", label: "Days You Plan to Attend", type: "select", options: ["All 4 Days", "Day 1", "Day 2", "Day 3", "Day 4"] },
         ],
       },
@@ -278,7 +278,7 @@ export const REG_CATEGORIES: RegCategory[] = [
           { id: "team", label: "Preferred Team", type: "select", required: true, options: ["Coach","Judge","Event Setup","Event Coordination","Workshop Facilitation","Technical Support","Marketing and Promotion","Guest Services","Photography/Videography","Participant Support and Guidance","Workshop Assistance and Support","Speaker Liaison and Support","Competition Assistance (e.g., timing, scoring, logistics)", "Exhibit Management and Assistance","Venue Logistics and Support", "Social Media Management and Content Creation", "Marketing and Promotions (e.g., distributing flyers, posters)", "Hospitality and Catering Support", "Volunteer Coordination and Management", "Translation and Interpretation Services",
                 "First Aid and Medical Assistance", "Technology Support and Assistance","Guest Relations and VIP Support", "Transportation and Logistics Support", "Accessibility Support (e.g., assisting participants with disabilities)", "Environmental Sustainability and Green Initiatives"] },
           { id: "availability", label: "Availability", type: "select", required: true, options: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] },
-          { id: "availability", label: "Preferred Time Slot", type: "select", required: true, options: ["Morning", "Afternoon", "Evening"] },
+          { id: "timeSlot", label: "Preferred Time Slot", type: "select", required: true, options: ["Morning", "Afternoon", "Evening"] },
           { id: "training", label: "Availability for Training", type: "select", required: true, options: ["Yes", "No"] },
           { id: "experience", label: "Relevant Experience (optional)", type: "textarea" },
         ],
