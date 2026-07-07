@@ -7,7 +7,9 @@ import { sentryVitePlugin } from "@sentry/vite-plugin";
 
 export default defineConfig({
   plugins: [
-    tanstackRouter(),
+    tanstackRouter({
+      enableRouteGeneration: false,
+    }),
     tanstackStart(),
     react(),
     tailwindcss(),
